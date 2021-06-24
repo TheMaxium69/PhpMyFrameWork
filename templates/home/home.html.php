@@ -53,22 +53,37 @@
             <br> avec cette exemple on va transmettre les variable <mark>titreDePage</mark>, <mark>message</mark> et <mark>messageChange</mark>, et en y passant la variable <mark>titreDePage</mark>, vas automatique ce mettre dans le titre de la page
             <br> dernière petit chose on oublie pas de respecter les syntaxe et de bien mettre les ficher au bonne en droit avec la bonne majuscule
         </p>
-        <p><img src="https://media.discordapp.net/attachments/446049284694081546/857610659368665098/unknown.png" alt="controlleur2" width="300px" class="d-inline-block align-text-top"></p>
+        <p><img src="https://media.discordapp.net/attachments/446049284694081546/857610659368665098/unknown.png" alt="controlleur2" width="250px" class="d-inline-block align-text-top"></p>
 
     </section>
     <section id="Layout">
         <h4>Les Layout</h4>
-        <p>ziojeizabeiza</p>
-        <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857608951750066176/unknown.png" alt="layout1" width="300px" class="d-inline-block align-text-top"></p>
-
+        <p>le layout sera plus simple que <u>le controlleur</u> on va reprendre comme pour <u>le controlleur</u> notre exemple du haut</p>
+        <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857612139136942080/unknown.png" alt="layout1" width="800px" class="d-inline-block align-text-top"></p>
+        <p>
+            grace a la méthode <mark>compact()</mark> que nous avons mis dans notre <u>controlleur</u> on peut récupérer nos variable <mark>message</mark> et <mark>messageChange</mark> et grace a un simple <mark>echo</mark> on a pus les afficher
+            <br>en desous nous avons un simple formulaire en <mark>post</mark> qui redirige vers <mark>index.php?controller=home&task=index</mark> ce qui nous permet de refaire appel a la méthode <mark>index</mark> du <u>controlleur</u> <mark>Home</mark> ce qui nous a permis d'envoyé dans notre <u>controlleur</u> la variable <mark>post</mark> et dans l'exemple ça sera <mark>$_POST['messageChange']</mark><br>
+            encore une fois on oublie pas de respecter les syntaxe et de bien mettre les ficher au bonne en droit avec la bonne terminaison de ficher <mark>.html.php</mark>
+        </p>
+        <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857608951750066176/unknown.png" alt="layout2" width="300px" class="d-inline-block align-text-top"></p>
     </section>
     <section id="Model">
         <h4>Les Models</h4>
-        <p>ziojeizabeiza</p>
+        <p>
+            Alors les models surment la parti la plus compliqué a comprendre d'ailleur pour ça on va changez d'exemple avec un Garage
+            <br>pour commencer il faut changez la class <u>controlleur</u> qu'on a applez <mark>Garage</mark>
+        </p>
     </section>
     <section id="Other">
         <h4>Autre</h4>
-        <p>ziojeizabeiza</p>
+        <p>pour terminez on oublie pas de bien connecter sa base de donné dans le ficher <mark>../core/Database.php</mark> et on remplie ces information</p>
+        <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857615252744699904/unknown.png" alt="other1" width="800px" class="d-inline-block align-text-top"></p>
+        <p>
+            <mark>localhost</mark> : Le lien de votre base de donnée
+            <br><mark>ExempleDB</mark> : Le nom de votre base de donnée
+            <br><mark>ExempleUsername</mark> : Le username de votre base de donnée
+            <br><mark>ExemplePassword</mark> : Le password de votre base de donnée
+        </p>
     </section>
 </main>
 
