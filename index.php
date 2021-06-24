@@ -1,4 +1,4 @@
-<?php 
+    <?php
 
 //on récupère les librairies nécéssaires
 
