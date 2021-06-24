@@ -73,6 +73,14 @@
             Alors les models surment la parti la plus compliqué a comprendre d'ailleur pour ça on va changez d'exemple avec un Garage
             <br>pour commencer il faut changez la class <u>controlleur</u> qu'on a applez <mark>Garage</mark>
         </p>
+        <p><img src="https://media.discordapp.net/attachments/446049284694081546/857624091103330334/unknown.png" alt="model1" width="500px" class="d-inline-block align-text-top"></p>
+        <p>
+            grace a l'ajout de <mark>extends Controller</mark> ça nous permet de faire comprendre au framwork qu'on a vas vouloir un model
+            <br>et juste en dessous il faut mettre le nom de notre model <mark>protected $modelName = \Model\Garage::class;</mark> grace a cette ligne on donne la class model a notre <u>controlleur</u>
+            <br>et evidement on respect le nom avec la majuscule et l'endroit du ficher (tout les model dans <mark>../core/Model/</mark>)
+        </p>
+        <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857626638661845052/unknown.png" alt="model1" width="250px" class="d-inline-block align-text-top"></p>
+
     </section>
     <section id="Other">
         <h4>Autre</h4>
@@ -86,39 +94,3 @@
         </p>
     </section>
 </main>
-
-<style>
-    h2#title{
-        margin-top: 10px;
-    }
-    p#change{
-        margin-top: 10px;
-    }
-    main{
-        background-color: white;
-        color: black;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 30px;
-        padding: 20px;
-        border-radius: 14px;
-    }
-    main p{
-        text-align: center;
-    }
-    main h3{
-        text-decoration: underline;
-    }
-    main h4{
-        text-align: center
-    }
-    main ul{
-        margin-left: 100px;
-    }
-    main a{
-        text-decoration:none;
-        color: black;
-    }
-
-
-</style>

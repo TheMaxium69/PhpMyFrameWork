@@ -1,0 +1,38 @@
+
+body{
+    background-color: #343a40;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2#title{
+    margin-top: 10px;
+}
+p#change{
+    margin-top: 10px;
+}
+main{
+    background-color: white;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 14px;
+}
+main p{
+    text-align: center;
+}
+main h3{
+    text-decoration: underline;
+}
+main h4{
+    text-align: center
+}
+main ul{
+    margin-left: 100px;
+}
+main a{
+    text-decoration:none;
+    color: black;
+}
