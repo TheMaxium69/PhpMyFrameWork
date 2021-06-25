@@ -62,8 +62,8 @@
         <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857612139136942080/unknown.png" alt="template1" width="800px" class="d-inline-block align-text-top"></p>
         <p>
             grace a la méthode <mark>compact()</mark> que nous avons mis dans notre <u>controlleur</u> on peut récupérer nos variable <mark>message</mark> et <mark>messageChange</mark> et grace a un simple <mark>echo</mark> on a pus les afficher
-            <br>en desous nous avons un simple formulaire en <mark>post</mark> qui redirige vers <mark>index.php?controller=home&task=index</mark> ce qui nous permet de refaire appel a la méthode <mark>index</mark> du <u>controlleur</u> <mark>Home</mark> ce qui nous a permis d'envoyé dans notre <u>controlleur</u> la variable <mark>post</mark> et dans l'exemple ça sera <mark>$_POST['messageChange']</mark><br>
-            encore une fois on oublie pas de respecter les syntaxe et de bien mettre les ficher au bonne en droit avec la bonne terminaison de ficher <mark>.html.php</mark>
+            <br>en desous nous avons un simple formulaire en <mark>post</mark> qui redirige vers <mark>index.php?controller=home&task=index</mark> ce qui nous permet de refaire appel a la méthode <mark>index</mark> du <u>controlleur</u> <mark>Home</mark> ce qui nous a permis d'envoyé dans notre <u>controlleur</u> la variable <mark>post</mark> et dans l'exemple ça sera <mark>$_POST['messageChange']</mark>
+            <br>encore une fois on oublie pas de respecter les syntaxe et de bien mettre les ficher au bonne en droit avec la bonne terminaison de ficher <mark>.html.php</mark><br>
         </p>
         <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857608951750066176/unknown.png" alt="template2" width="300px" class="d-inline-block align-text-top"></p>
     </section>
@@ -80,7 +80,9 @@
             <br>et evidement on respect le nom avec la majuscule et l'endroit du ficher (tout les model dans <mark>../core/Model/</mark>)
         </p>
         <p><img src="https://cdn.discordapp.com/attachments/446049284694081546/857626638661845052/unknown.png" alt="model1" width="250px" class="d-inline-block align-text-top"></p>
-
+        <p>
+            pas terminer
+        </p>
     </section>
     <section id="Other">
         <h4>Autre</h4>
